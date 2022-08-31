@@ -160,7 +160,7 @@ cursor: pointer;
     justify-content: center;
     width: 100%;
     background-color: #FFFDFA;
-
+  overflow-x:hidden;
 
   }
 
@@ -687,5 +687,9 @@ cursor: pointer;
       
        height: auto;
        width: 350px;
+  }
+  
+  #butter {
+    overflow-x:hidden;
   }
 }
