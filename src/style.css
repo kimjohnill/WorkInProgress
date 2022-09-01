@@ -621,7 +621,7 @@ cursor: pointer;
      .image_4 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: 0px;
-       margin-left:-55px;
+       margin-left:-45px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
        cursor: pointer;
@@ -640,7 +640,7 @@ cursor: pointer;
        color: #3c3c3c;
        font-size: 14pt;
        cursor: pointer;
-       margin-left:30px;
+       margin-left:15px;
        margin-top:10px;px;
        line-height:1;
      }
@@ -668,7 +668,7 @@ cursor: pointer;
        font-size: 14pt;
        cursor: pointer;
        margin-left:85px;
-       margin-top:0px;
+       margin-top:10px;
        line-height:1;
      }
 
