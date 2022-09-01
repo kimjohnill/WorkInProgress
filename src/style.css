@@ -689,6 +689,10 @@ cursor: pointer;
        width: 350px;
   }
   
+  #section3 {
+    height:100px;
+  }
+  
   #butter {
     overflow-x:hidden;
   }
