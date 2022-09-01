@@ -696,4 +696,7 @@ cursor: pointer;
   #butter {
     overflow-x:hidden;
   }
+  #butter::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
 }
