@@ -536,7 +536,7 @@ cursor: pointer;
 
      .image_1 {
        filter: drop-shadow(6px 6px 6px #393939);
-       margin-left:-85px;
+       margin-left:-80px;
        margin-top: 100px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
@@ -566,7 +566,7 @@ cursor: pointer;
      .image_2 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -30px;
-       margin-left: -80px;
+       margin-left: -95px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
        cursor: pointer;
@@ -593,7 +593,7 @@ cursor: pointer;
      .image_3 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -30px;
-       margin-left:-60px;
+       margin-left:-100px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
        cursor: pointer;
@@ -621,7 +621,7 @@ cursor: pointer;
      .image_4 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: 0px;
-       margin-left:-60px;
+       margin-left:-55px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
        cursor: pointer;
