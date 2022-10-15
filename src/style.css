@@ -620,7 +620,7 @@ cursor: pointer;
        line-height:1;
      }
 
-     .image_cab {
+     .image_5 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -30px;
        margin-left:-40px;
@@ -629,7 +629,7 @@ cursor: pointer;
        cursor: pointer;
        z-index:4;
      }
-     .image_cab img {
+     .image_5 img {
        max-width:270px;
        height:auto;
 
