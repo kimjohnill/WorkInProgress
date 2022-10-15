@@ -35,12 +35,12 @@
     margin-top: 50px;
     font-size: 10pt;
     letter-spacing: 3px;
-    cursor: pointer;
      user-select:none;
 }
 
 .logo a {
 cursor: pointer;
+user-select:none;
 }
 
 
@@ -68,7 +68,6 @@ cursor: pointer;
     margin-left: 0px;
     margin-right:0px;
     width:100%;
-    vertical-align:top;
     text-align:center;
 
   }
@@ -78,7 +77,6 @@ cursor: pointer;
     line-height: 1.9;
     width:29%;
     display:inline-block;
-    vertical-align:top;
     font-family: 'Roboto', sans-serif;
 
   }
@@ -90,24 +88,36 @@ cursor: pointer;
     line-height: 1.9;
     width: 29%;
     display:inline-block;
-    vertical-align:top;
   }
 
   ::selection{
     color:white;
-    background:black;
+    background: #5c5c5c;
   }
 
   .img_box {
-    margin-left:50px;
-    margin-right:50px;
+    padding-left:200px;
+    padding-right:200px;
     margin-top:40px;
     text-align:center;
   }
 
   .img_box img{
+    margin-left:50px;
+    margin-right:50px;
     max-width:100%;
     height:auto;
+  }
+
+  .img_set {
+    display:inline-block;
+    width:100%;
+    margin-top:40px;
+    text-align:center;
+  }
+
+  .img_bottom {
+    margin-bottom:100px;
   }
 
   section {
