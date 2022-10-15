@@ -1,5 +1,4 @@
 
-
   html {
 
   }
@@ -16,8 +15,6 @@
   width:500px;
   height:500px;
   margin-top: 20px;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
   cursor: pointer;
   z-index:4;
 }
@@ -28,8 +25,6 @@
   height:500px;
   margin-top: 200px;
   margin-left:-100px;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
   cursor: pointer;
   z-index:4;
 }
@@ -39,8 +34,6 @@
   width:500px;
   height:500px;
   margin-top: 20px;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
   cursor: pointer;
   z-index:4;
 }
@@ -51,19 +44,20 @@
   height:500px;
   margin-top: 150px;
   margin-left:-110px;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
   cursor: pointer;
   z-index:4;
 }
 
+/*
 .img:hover {
     opacity: 0.5;
     cursor: pointer;
 }
+*/
 
-.image_cab {
+.image_5 {
   margin-top:-100px;
+  margin-left: 200px;
 }
 
 
@@ -95,8 +89,8 @@
 
 .image_3 img {
   width:100%;
-  max-width:440px;
-  height:auto;
+  max-width:296px;
+  height:600px;
 }
 
 .image_4 img {
@@ -202,7 +196,7 @@ cursor: pointer;
     font-size: 14pt;
     cursor: pointer;
     margin-left:240px;
-    margin-top:-280px;
+    margin-top:-30px;
     line-height:1;
   }
   .image-text_4 {
@@ -227,7 +221,7 @@ cursor: pointer;
     color: #3c3c3c;
     font-size: 14pt;
     cursor: pointer;
-    margin-left:200px;
+    margin-left:300px;
     margin-top:10px;
     line-height:1;
   }
@@ -307,7 +301,6 @@ cursor: pointer;
 
 /*
   @media only screen and (max-width: 768px) {
-
     #header {
         position: fixed;
         width: 100%;
@@ -324,29 +317,24 @@ cursor: pointer;
       margin-left: auto;
       margin-right: auto;
       width: 100px;
-
      }
-    
+
       .box {
     text-align: center;
-    float:left; 
+    float:left;
     height: auto;
     width: 380px;
     cursor: pointer;
   }
-
      .image {
        filter: drop-shadow(6px 6px 6px #393939);
        max-width:300px;
        margin-top: 20px;
          z-index:4;
      }
-
      .post {
        max-width:350px;
      }
-
-
      .image_1 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-left:-20px;
@@ -355,13 +343,10 @@ cursor: pointer;
        opacity: 1;
        z-index:4;
      }
-
      .image_1 img {
-
        max-width:250px;
        height:auto;
      }
-
      .image-text_1 {
        text-align: left;
        font-family: 'DM Serif Display', serif;
@@ -375,7 +360,6 @@ cursor: pointer;
        margin-top:-230px;
        line-height:1.2;
      }
-
      .image_2 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: 0px;
@@ -402,7 +386,6 @@ cursor: pointer;
        margin-top:-160px;
        line-height:1;
      }
-
      .image_3 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -170px;
@@ -413,7 +396,6 @@ cursor: pointer;
        z-index:4;
      }
      .image_3 img {
-
        max-width:350px;
        height:auto;
      }
@@ -430,7 +412,6 @@ cursor: pointer;
        margin-top:-300px;
        line-height:1;
      }
-
      .image_4 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -420px;
@@ -457,7 +438,6 @@ cursor: pointer;
        margin-top:10px;px;
        line-height:1;
      }
-
      .image_cab {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -620px;
@@ -484,10 +464,6 @@ cursor: pointer;
        margin-top:10px;px;
        line-height:1;
      }
-
-
-
-
      .contact {
        z-index:auto;
        position:relative;
@@ -496,7 +472,6 @@ cursor: pointer;
        float: right;
      }
 
-     
   }
 */
 
@@ -593,7 +568,7 @@ cursor: pointer;
      .image_3 {
        filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -30px;
-       margin-left:-100px;
+       margin-left:-120px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
        cursor: pointer;
@@ -601,8 +576,8 @@ cursor: pointer;
      }
      .image_3 img {
 
-       max-width:300px;
-       height:auto;
+       max-width:246px;
+       height:500px;
      }
      .image-text_3 {
        text-align: left;
@@ -614,13 +589,13 @@ cursor: pointer;
        font-size: 14pt;
        cursor: pointer;
        margin-left:200px;
-       margin-top:-320px;
+       margin-top:-100px;
        line-height:1;
      }
 
      .image_4 {
        filter: drop-shadow(6px 6px 6px #393939);
-       margin-top: 0px;
+       margin-top: 100px;
        margin-left:-45px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
@@ -657,6 +632,7 @@ cursor: pointer;
      .image_cab img {
        max-width:270px;
        height:auto;
+
      }
      .image-text_5 {
        text-align: left;
@@ -684,19 +660,19 @@ cursor: pointer;
      }
 
      .box {
-      
+
        height: auto;
        width: 350px;
   }
-  
+
   #section3 {
     height:100px;
   }
-  
+
   #butter {
     overflow-x:hidden;
   }
   ::-webkit-scrollbar {
-    display: none; 
+    display: none;
 }
 }
