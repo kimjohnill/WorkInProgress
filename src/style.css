@@ -588,14 +588,14 @@ cursor: pointer;
        color: #3c3c3c;
        font-size: 14pt;
        cursor: pointer;
-       margin-left:200px;
-       margin-top:-100px;
+       margin-left:190px;
+       margin-top:-200px;
        line-height:1;
      }
 
      .image_4 {
        filter: drop-shadow(6px 6px 6px #393939);
-       margin-top: 100px;
+       margin-top: 70px;
        margin-left:-45px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
