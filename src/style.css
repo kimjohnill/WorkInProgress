@@ -9,7 +9,11 @@
       overflow-x:hidden;
   }
 
-
+  ::selection{
+    color:white;
+    background: #5c5c5c;
+  }
+  
 .image {
   filter: drop-shadow(6px 6px 6px #393939);
   width:500px;
@@ -65,6 +69,7 @@
   width:100%;
   max-width:350px;
   height:auto;
+  user-select: none;
 }
 
 .image-text_1 {
@@ -85,24 +90,28 @@
   width:100%;
   max-width:500px;
   height:auto;
+  user-select: none;
 }
 
 .image_3 img {
   width:100%;
   max-width:296px;
   height:600px;
+  user-select: none;
 }
 
 .image_4 img {
   width:100%;
   max-width:400px;
   height:auto;
+  user-select: none;
 }
 
 .image_5 img {
   width:100%;
   max-width:400px;
   height:auto;
+  user-select: none;
 }
 
 
@@ -491,8 +500,9 @@ cursor: pointer;
         padding: 0;
         margin: 0;
         z-index:2;
-         user-select:none;
+        user-select:none;
     }
+
     .logo {
       font-family: 'Rubik', sans-serif;
       font-weight:500;
@@ -672,6 +682,7 @@ cursor: pointer;
   #butter {
     overflow-x:hidden;
   }
+
   ::-webkit-scrollbar {
     display: none;
 }
