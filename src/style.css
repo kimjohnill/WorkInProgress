@@ -563,7 +563,7 @@ cursor: pointer;
 
      .image_0 {
        filter: drop-shadow(6px 6px 6px #393939);
-       margin-left:-100px;
+       margin-left:-50px;
        margin-top: -50px;
        transition: opacity 1s ease-in-out;
        opacity: 1;
