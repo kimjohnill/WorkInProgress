@@ -128,19 +128,25 @@ user-select:none;
     background: #5c5c5c;
   }
 
+.img_box {
+  text-align: center;
+}
 
 
   .img_box img{
-    margin-left:50px;
-    margin-right:50px;
+    margin-top: 0px;
+    margin-left:60px;
+    margin-right:60px;
     max-width:100%;
     height:auto;
   }
 
+  .img_logo_container {
+    margin-top: 200px;
+  }
+
   .img_container {
     margin-top: 50px;
-    margin-left: 0px;
-    margin-right:0px;
     width:100%;
     text-align:center;
   }
@@ -263,6 +269,19 @@ user-select:none;
          margin-right:30px;
          display:inline-block;
          text-align:left;
+       }
+
+       .img_box img{
+         margin-top: 0px;
+         margin-left:0px;
+         margin-right:0px;
+         max-width:100%;
+         height:auto;
+       }
+
+
+       .img_logo_container {
+         padding-bottom: 150px;
        }
 
 
