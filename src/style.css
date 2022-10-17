@@ -8,11 +8,6 @@
       background-color: #FFFDFA;
       overflow-x:hidden;
   }
-
-  ::selection{
-    color:white;
-    background: #5c5c5c;
-  }
   
 .image {
   filter: drop-shadow(6px 6px 6px #393939);
@@ -286,7 +281,7 @@ cursor: pointer;
 
   ::selection{
     color:white;
-    background:black;
+    background: #5c5c5c;
   }
 
   .img_box {
