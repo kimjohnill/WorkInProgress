@@ -25,7 +25,7 @@
   width:400px;
   height:400px;
   margin-top: 200px;
-  margin-left:-100px;
+  margin-left:0px;
   cursor: pointer;
   z-index:4;
 }
@@ -77,21 +77,21 @@
 */
 
 .image_5 {
-  margin-top: 100px;
+  margin-top: 0px;
   margin-left: 0px;
 }
 
 
 .image_0 img {
   width:100%;
-  max-width:350px;
+  max-width:300px;
   height:auto;
   user-select: none;
 }
 
 .image_1 img {
   width:100%;
-  max-width:500px;
+  max-width:400px;
   height:auto;
   user-select: none;
 }
@@ -106,7 +106,7 @@
   font-size: 14pt;
   cursor: pointer;
   margin-left:200px;
-  margin-top:-50px;
+  margin-top:-150px;
   line-height:1.2;
 }
 
@@ -119,21 +119,21 @@
 
 .image_3 img {
   width:100%;
-  max-width:296px;
-  height:600px;
+  max-width:250px;
+  height:500px;
   user-select: none;
 }
 
 .image_4 img {
   width:100%;
-  max-width:400px;
+  max-width:350px;
   height:auto;
   user-select: none;
 }
 
 .image_5 img {
   width:100%;
-  max-width:400px;
+  max-width:600px;
   height:auto;
   user-select: none;
 }
@@ -216,7 +216,7 @@ cursor: pointer;
     font-size: 14pt;
     cursor: pointer;
     margin-left:180px;
-    margin-top:-50px;
+    margin-top:-80px;
     line-height:1;
   }
 
@@ -244,7 +244,7 @@ cursor: pointer;
     font-size: 14pt;
     cursor: pointer;
     margin-left:320px;
-    margin-top:170px;
+    margin-top:80px;
     line-height:1;
   }
   .image-text_4 {
@@ -257,7 +257,7 @@ cursor: pointer;
     font-size: 14pt;
     cursor: pointer;
     margin-left:0px;
-    margin-top:-90px;
+    margin-top:-140px;
     line-height:1;
   }
   .image-text_5 {
@@ -269,8 +269,8 @@ cursor: pointer;
     color: #3c3c3c;
     font-size: 14pt;
     cursor: pointer;
-    margin-left:250px;
-    margin-top:0px;
+    margin-left:150px;
+    margin-top:-80px;
     line-height:1;
   }
 
@@ -712,7 +712,7 @@ cursor: pointer;
        z-index:4;
      }
      .image_5 img {
-       max-width:270px;
+       max-width:350px;
        height:auto;
 
      }
@@ -726,7 +726,7 @@ cursor: pointer;
        font-size: 14pt;
        cursor: pointer;
        margin-left:85px;
-       margin-top:10px;
+       margin-top:-30px;
        line-height:1;
      }
 
