@@ -151,7 +151,13 @@ user-select:none;
     text-align:center;
   }
 
-.img_container_jn {
+  .img_container_jn {
+    margin-top: 0px;
+    width:100%;
+    text-align:center;
+  }
+
+  .img_container_fe {
     margin-top: 0px;
     width:100%;
     text-align:center;
