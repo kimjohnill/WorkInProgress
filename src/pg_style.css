@@ -238,6 +238,10 @@ user-select:none;
          width:300px;
          height:auto;
        }
+    .book_fe {
+         width:400px;
+         height:auto;
+       }
        .book_cover {
          width:150px;
          height:auto;
