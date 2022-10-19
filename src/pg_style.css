@@ -238,8 +238,12 @@ user-select:none;
          width:300px;
          height:auto;
        }
-    .book_fe {
+        .book_fe {
          width:400px;
+         height:auto;
+       }
+        .book_1 {
+         width:350px;
          height:auto;
        }
        .book_cover {
