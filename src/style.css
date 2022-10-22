@@ -77,8 +77,11 @@
 */
 
 .image_5 {
+  filter: drop-shadow(6px 6px 6px #393939);
   margin-top: 0px;
   margin-left: 0px;
+  cursor: pointer;
+  z-index:4;
 }
 
 
