@@ -77,11 +77,8 @@
 */
 
 .image_5 {
-  filter: drop-shadow(6px 6px 6px #393939);
   margin-top: 0px;
   margin-left: 0px;
-  cursor: pointer;
-  z-index:4;
 }
 
 
@@ -101,7 +98,7 @@
 
 .image-text_1 {
   text-align: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'DM Serif Display', serif;
   letter-spacing: 0.7px;
   font-weight:400;
   font-style:italic;
@@ -136,7 +133,7 @@
 
 .image_5 img {
   width:100%;
-  max-width:600px;
+  max-width:500px;
   height:auto;
   user-select: none;
 }
@@ -211,9 +208,9 @@ cursor: pointer;
 
   .image-text_0 {
     text-align: left;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
     letter-spacing: 0.7px;
-    font-weight:700;
+    font-weight:400;
     font-style:italic;
     color: #3c3c3c;
     font-size: 14pt;
@@ -225,9 +222,9 @@ cursor: pointer;
 
   .image-text_2 {
     text-align: left;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
     letter-spacing: 0.7px;
-    font-weight:700;
+    font-weight:400;
     font-style:italic;
     color: #3c3c3c;
     font-size: 14pt;
@@ -239,9 +236,9 @@ cursor: pointer;
 
   .image-text_3 {
     text-align: left;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
     letter-spacing: 0.7px;
-    font-weight:700;
+    font-weight:400;
     font-style:italic;
     color: #3c3c3c;
     font-size: 14pt;
@@ -252,9 +249,9 @@ cursor: pointer;
   }
   .image-text_4 {
     text-align: left;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
     letter-spacing: 0.7px;
-    font-weight:700;
+    font-weight:400;
     font-style:italic;
     color: #3c3c3c;
     font-size: 14pt;
@@ -265,9 +262,9 @@ cursor: pointer;
   }
   .image-text_5 {
     text-align: left;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
     letter-spacing: 0.7px;
-    font-weight:700;
+    font-weight:400;
     font-style:italic;
     color: #3c3c3c;
     font-size: 14pt;
