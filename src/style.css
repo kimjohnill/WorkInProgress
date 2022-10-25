@@ -703,7 +703,6 @@ cursor: pointer;
      }
 
      .image_5 {
-       filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -70px;
        margin-left:-40px;
        transition: opacity 1s ease-in-out;
