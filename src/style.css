@@ -64,7 +64,7 @@
   width:500px;
   height:500px;
   margin-top: 100px;
-  margin-left:-100px;
+  margin-left:-70px;
   cursor: pointer;
   z-index:4;
 }
@@ -256,8 +256,8 @@ cursor: pointer;
     color: #3c3c3c;
     font-size: 14pt;
     cursor: pointer;
-    margin-left:0px;
-    margin-top:-140px;
+    margin-left:30px;
+    margin-top:-40px;
     line-height:1;
   }
   .image-text_5 {
@@ -269,8 +269,8 @@ cursor: pointer;
     color: #3c3c3c;
     font-size: 14pt;
     cursor: pointer;
-    margin-left:150px;
-    margin-top:-80px;
+    margin-left:300px;
+    margin-top:-150px;
     line-height:1;
   }
 
@@ -703,6 +703,7 @@ cursor: pointer;
      }
 
      .image_5 {
+       filter: drop-shadow(6px 6px 6px #393939);
        margin-top: -70px;
        margin-left:-40px;
        transition: opacity 1s ease-in-out;
