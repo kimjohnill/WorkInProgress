@@ -74,13 +74,13 @@ user-select:none;
   .text_eng {
     font-size: 10pt;
     line-height: 1.9;
-    width:500px;
-    padding-right: 50px;
+    width:50%;
     margin-left:auto;
     margin-right:auto;
     display:inline-block;
     font-family: 'Roboto', sans-serif;
     text-align:left;
+  
 
   }
   .text_kor {
@@ -141,8 +141,23 @@ user-select:none;
     height:auto;
   }
 
+
   .img_logo_container {
     margin-top: 200px;
+  }
+
+  .item_descrip {
+    display:inline-block;
+    margin-top:50px;
+  }
+
+  .item_detail {
+    display:block;
+    margin-top:-50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height:20px;
+    font-size: 10pt;
   }
 
   .img_container {
@@ -171,8 +186,15 @@ user-select:none;
     text-align:center;
   }
 
+  .img_set_atc {
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+  }
+
   .img_bottom {
-    margin-bottom:200px;
+    margin-bottom:150px;
   }
 
   section {
@@ -185,6 +207,8 @@ user-select:none;
 
 
   @media only screen and (max-width: 420px) {
+
+
 
     #header {
         position: fixed;
@@ -212,15 +236,20 @@ user-select:none;
 
 
        .img_container {
-         margin-top:0px;
+         max-width:100%;
        }
 
        .img_set {
-         display:block;
+         display: inline-block;
          margin-top:20px;
        }
 
+       .img_set_atc {
+         display: inline-block;
+       }
+
        .cover_logo {
+         margin-top:50px;
          width:420px;
          height:auto;
        }
@@ -235,17 +264,18 @@ user-select:none;
        }
 
        .book {
-         width:300px;
+         width:380px;
          height:auto;
        }
-        .book_fe {
+       .book_fe {
          width:400px;
          height:auto;
        }
-        .book_1 {
+       .book_1 {
          width:350px;
          height:auto;
        }
+
        .book_cover {
          width:360px;
          height:auto;
