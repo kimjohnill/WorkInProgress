@@ -1,7 +1,5 @@
 
-  html {
-
-  }
+  
   body {
       padding: 0;
       margin: 0;
@@ -279,8 +277,7 @@ cursor: pointer;
     font-weight:300;
     font-size: 8pt;
     color: #3c3c3c
-    cursor: pointer;
-
+  
   }
 
   .post {
@@ -345,8 +342,15 @@ cursor: pointer;
   }
 
   .img_bottom {
+    margin-bottom:20px;
     width:100%;
-    height:300px;
+    height:auto;
+  }
+
+  .rights {
+    text-align: center;
+    margin: auto;
+    margin-top: 250px;
   }
 
 
@@ -963,8 +967,9 @@ cursor: pointer;
 }
 
 .img_bottom {
+  margin-bottom:50px;
   width:100%;
-  height:200px;
+  height:auto;
 }
 
 }
