@@ -1,0 +1,210 @@
+
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+      padding: 0;
+      margin: 0;
+      background-color: #FFFDFA;
+      overflow-x: hidden;
+  }
+
+
+
+
+  #header {
+      color: #292929;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 250px;
+      padding: 0;
+      margin: 0;
+      z-index:2;
+       user-select:none;
+  }
+
+
+  .logo {
+    font-family: 'Rubik', sans-serif;
+    font-weight:500;
+    margin-left:200px;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 10pt;
+    letter-spacing: 3px;
+     user-select:none;
+}
+
+.logo a {
+cursor: pointer;
+user-select:none;
+}
+
+
+  .contact {
+    z-index: auto;
+    position:relative;
+    margin-top: -65px;
+    margin-right: 200px;
+    float: right;
+  }
+
+
+
+  #butter {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    background-color: #FFFDFA;
+  }
+
+  .about {
+    margin-top: 250px;
+    width:100%;
+    height:auto;
+  }
+
+  .text_eng {
+    font-size: 14pt;
+    line-height: 1.9;
+    width:50%;
+    margin-left:200px;
+    margin-right:auto;
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align:left;
+  }
+  
+  ::selection{
+    color:white;
+    background: #5c5c5c;
+  }
+
+  .img_bottom {
+    margin-bottom:20px;
+    width:100%;
+    height:auto;
+  }
+
+  .names {
+    font-size: 14pt;
+    margin-left:200px;
+  }
+
+  .name {
+    font-size: 14pt;
+    padding-bottom:5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+   
+  }
+
+  .email a {
+    color:black;
+    text-decoration:none;
+    margin-left:200px;
+    margin-top: 50px;
+  }
+
+  .email {
+    font-size: 14pt;
+    padding-top:10px;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+    text-decoration: underline;
+   
+  }
+
+
+  @media only screen and (max-width: 420px) {
+
+
+
+    #header {
+        position: fixed;
+        width: 100%;
+        height: 250px;
+        padding: 0;
+        margin: 0;
+        z-index:2;
+        user-select:none;
+    }
+
+    .logo {
+      font-family: 'Rubik', sans-serif;
+      font-weight:500;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+
+     }
+
+       
+
+       #butter {
+         overflow-x:hidden;
+       }
+
+       ::-webkit-scrollbar {
+         display: none;
+       }
+
+       .contact {
+         z-index:auto;
+         position:relative;
+         margin-top: 480px;
+         margin-right: 40px;
+         float: right;
+       }
+
+       .text_eng {
+         font-size: 10pt;
+         line-height: 1.9;
+         width: 340px;
+         padding-right: 0px;
+         margin-left:30px;
+         margin-right:30px;
+         display:inline-block;
+         
+         text-align:left;
+
+       }
+       
+       .names {
+        font-size: 14pt;
+        margin-left:30px;
+      }
+    
+      .name {
+        font-size: 14pt;
+        padding-bottom:5px;
+        font-family: 'Roboto', sans-serif;
+        font-weight:bold;
+       
+      }
+    
+      .email a {
+        color:black;
+        text-decoration:none;
+        margin-left:30px;
+        margin-top: 50px;
+      }
+    
+      .email {
+        font-size: 14pt;
+        padding-top:10px;
+        font-family: 'Roboto', sans-serif;
+        cursor:pointer;
+        text-decoration: underline;
+       
+      }
+
+
+     }
