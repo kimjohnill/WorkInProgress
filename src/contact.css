@@ -93,7 +93,6 @@ user-select:none;
   }
 
   .names {
-    font-size: 14pt;
     margin-left:200px;
   }
 
@@ -113,7 +112,7 @@ user-select:none;
   }
 
   .email {
-    font-size: 14pt;
+    font-size: 10pt;
     padding-top:10px;
     font-family: 'Roboto', sans-serif;
     cursor:pointer;
@@ -191,6 +190,7 @@ user-select:none;
       }
     
       .email a {
+        font-size: 10pt;
         color:black;
         text-decoration:none;
         margin-left:30px;
@@ -198,7 +198,7 @@ user-select:none;
       }
     
       .email {
-        font-size: 14pt;
+        font-size: 10pt;
         padding-top:10px;
         font-family: 'Roboto', sans-serif;
         cursor:pointer;
